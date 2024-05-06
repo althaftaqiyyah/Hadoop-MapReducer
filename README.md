@@ -1,14 +1,14 @@
 # Hadoop-MapReducer
-#### This repository contains MapReduce programs developed using Hadoop, an open-source framework for distributed storage and processing of large datasets. MapReduce is a programming model for processing and generating large datasets that runs on Hadoop. It consists of two main tasks - the Map task and the Reduce task - which are executed across multiple nodes in a Hadoop cluster. 
+### This repository contains MapReduce program developed using Hadoop, an open-source framework for distributed storage and processing of large datasets. MapReduce is a programming model for processing and generating large datasets that runs on Hadoop. It consists of two main tasks - the Map task and the Reduce task - which are executed across multiple nodes in a Hadoop cluster. 
 
 ## Programs
 ### Wordcount
 The WordCount program is a classic example of MapReduce. It counts the occurrences of each word in a given input text file. The MapReduce programs for WordCount in this repository are implemented using both Python and Java. 
 
-#### Java Implementation 
+#### - Java Implementation 
 The Java implementation of WordCount consists of mapper and reducer classes written in Java. These classes are compiled into a JAR file for execution on the Hadoop cluster.
 
-#### Python Implementation
+#### - Python Implementation
 The Python implementation of WordCount comprises mapper and reducer functions written in Python. These functions are executed using Hadoop Streaming, which allows MapReduce jobs to be written in any programming language that can read from standard input and write to standard output.
 
 ### Files
